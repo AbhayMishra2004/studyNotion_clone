@@ -9,7 +9,7 @@ export default function Template(props) {
     const title = props.title ; 
     const desc1 = props.desc1 ; 
     const desc2 = props.desc2 ; 
-    const image = props.image ; 
+    const img = props.image ; 
     const formType = props.formType ; 
     let setIsLoggedIn = props.setIsLoggedIn ;
     
@@ -61,7 +61,7 @@ export default function Template(props) {
             {/* BACK GROUND IMAGE AND IMAGE ON IT  */}
             <img src={frameImage} alt="pattern" width={558} height={504} loading="lazy" />
 
-            <img src={image} alt="image" width={558} height={490} loading="lazy" className='absolute -top-4 right-4' />
+            <img src={img} alt="img" width={558} height={490} loading="lazy" className='absolute -top-4 right-4' />
 
         </div>
     
