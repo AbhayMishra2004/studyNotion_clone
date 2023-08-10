@@ -43,7 +43,7 @@ export default function SignUpForm(props) {
         event.preventDefault() ; 
         
         // AGAR PASSWORD AUR CONFIRM MATCH NA HO TO 
-        if(formData.password != formData.confirmPassword)
+        if(formData.password !== formData.confirmPassword)
         {
             toast.error("Passwords do not match") ; 
             return ; 
